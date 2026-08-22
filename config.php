@@ -4,27 +4,24 @@
  * Telebachillerato Chichimantla Segundo
  */
 
-// 1. CARGA DE LIBRERÍAS (Composer)
-// Este archivo habilita todas las herramientas de Microsoft, PDF y QR
-require_once __DIR__ . '/vendor/autoload.php';
+// 1. CARGA DE VARIABLES DE ENTORNO
+// Leemos el archivo .env si existe para evitar exponer claves en el código
+$envFile = __DIR__ . '/.env';
+$env = file_exists($envFile) ? parse_ini_file($envFile) : [];
 
 // 2. CONFIGURACIÓN DE BASE DE DATOS (MariaDB)
-// Nota: En cPanel, el host suele ser 'localhost'
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'nombre_de_tu_base_de_datos'); 
-define('DB_USER', 'tu_usuario_de_base_de_datos');
-define('DB_PASS', 'tu_contraseña_segura');
+define('DB_HOST', $env['DB_HOST'] ?? 'localhost');
+define('DB_NAME', $env['DB_NAME'] ?? 'nombre_de_tu_base_de_datos'); 
+define('DB_USER', $env['DB_USER'] ?? 'tu_usuario_de_base_de_datos');
+define('DB_PASS', $env['DB_PASS'] ?? 'tu_contraseña_segura');
 
 // 3. CREDENCIALES DE MICROSOFT ENTRA ID (Azure AD)
-// Sustituye los valores con los que obtuviste en el portal de Azure
-define('MS_CLIENT_ID',     'cb9dd3a9-00c0-461f-849a-769aca0b0718');
-define('MS_CLIENT_SECRET', 'tu_client_secret_aqui');
-define('MS_TENANT_ID',     'b1420663-50e7-4ff2-b5e3-7a15c40ff90a');
+define('MS_CLIENT_ID',     $env['MS_CLIENT_ID'] ?? '');
+define('MS_CLIENT_SECRET', $env['MS_CLIENT_SECRET'] ?? '');
+define('MS_TENANT_ID',     $env['MS_TENANT_ID'] ?? '');
 
 // IMPORTANTE: Esta URL debe ser idéntica a la que registraste en Azure.
-// Para desarrollo local usa: http://localhost:8000/callback.php
-// Para producción usa: https://tu-sitio.edu.mx/callback.php
-define('MS_REDIRECT_URI',  'http://localhost:8000/callback.php');
+define('MS_REDIRECT_URI',  $env['MS_REDIRECT_URI'] ?? 'http://localhost:8000/callback.php');
 
 // 4. DATOS INSTITUCIONALES
 define('ESCUELA_NOMBRE', 'Telebachillerato Chichimantla Segundo');
