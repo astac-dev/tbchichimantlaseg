@@ -661,7 +661,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	color: #FF6700;
 }
 
-#courses .center-btn {
+.center-btn {
 	text-align:center;
 	margin-top:40px;
 }

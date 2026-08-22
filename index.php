@@ -56,7 +56,7 @@
 						<li><a href="index.html">Inicio</a></li>
 						<li><a href="#about">Nosotros</a></li>
 						<li><a href="#courses">Actividades</a></li>
-						<li><a href="https://tbchichimantlaseg.edu.mx/blog" target="_blank">Blog</a></li>
+						<!-- <li><a href="https://tbchichimantlaseg.edu.mx/login.php" target="_blank">Servicios Alumnos</a></li> -->
 						<li><a href="#contact-cta">Contacto</a></li>
 					</ul>
 				</nav>
@@ -285,6 +285,28 @@
 		</div>
 		<!-- /Call To Action -->
 
+		<!-- Uso de la IA -->
+		<div id="uso-ia" class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="section-header text-center">
+						<h2>Uso de la IA</h2>
+						<p class="lead">Conoce cómo integramos la Inteligencia Artificial en nuestra comunidad educativa para fortalecer el aprendizaje, promoviendo un uso ético, seguro y responsable.</p>
+					</div>
+				</div>
+				<!-- /row -->
+				<div class="row">
+					<div class="center-btn">
+						<a class="main-button icon-button" href="gobernanzaia.html">Gobernanza de IA</a>
+					</div>
+				</div>
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /Uso de la IA -->
+
 		<!-- Why us -->
 		<div id="why-us" class="section">
 
@@ -294,11 +316,16 @@
 
 				<!-- row -->
 				<div class="row">
-
-					<div class="col-md-6">
-						<h3 ><a href="https://news.microsoft.com/es-xl/microsoft-education-empodera-a-los-profesores-para-reinventar-la-experiencia-didactica/?msockid=0c550314a2e06d762b7d117da3996c54" target="_blank">Ejemplo para la comunidad educativa mundial.</a></h3>
-						<p class="lead">Impulsando nuevos modelos y herramientas de aprendizaje, la tecnología de Microsoft Education se ha posicionado como una plataforma de apoyo clave en el desarrollo de nuevas propuestas educativas..</p>
-						<p>...Incentivando a las personas a innovar, la tecnología de Microsoft Education está transformando la educación en comunidades rurales de todo el mundo. Gracias al programa Microsoft Innovative Educator, profesores de todo el mundo están optimizando sus prácticas docentes y motivando a sus alumnos a desarrollar nuevas habilidades y perspectivas, haciendo de la tecnología un motor de cambio.</p>
+					<div class="section-header text-center">
+						<h2>Ejemplo para la comunidad educativa mundial.</h2>
+						<p class="lead">Impulsando nuevos modelos y herramientas de aprendizaje, la tecnología de Microsoft Education se ha posicionado como una plataforma de apoyo clave en el desarrollo de nuevas propuestas educativas.</p>
+						<p class="lead">...Incentivando a las personas a innovar, la tecnología de Microsoft Education está transformando la educación en comunidades rurales de todo el mundo. Gracias al programa Microsoft Innovative Educator, profesores de todo el mundo están optimizando sus prácticas docentes y motivando a sus alumnos a desarrollar nuevas habilidades y perspectivas, haciendo de la tecnología un motor de cambio.</p>
+					</div>
+				</div>
+				<!-- /row -->
+				<div class="row">
+					<div class="center-btn">
+						<a class="main-button icon-button" href="https://news.microsoft.com/es-xl/microsoft-education-empodera-a-los-profesores-para-reinventar-la-experiencia-didactica/" target="_blank">Empoderar a los profesores para reinventar la experiencia didáctica</a>
 					</div>
 				</div>
 				<!-- /row -->
