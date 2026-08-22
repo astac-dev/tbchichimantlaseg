@@ -10,6 +10,8 @@ if (isset($_SESSION['user_name'])) {
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css"> <title>Portal de Constancias - TBCH Chichimantla</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="../img/logo-alt.jpg">
 </head>
 <body>
     <div class="login-container" style="text-align: center; margin-top: 100px;">
