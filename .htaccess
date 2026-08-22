@@ -1,0 +1,11 @@
+# Proteger archivos sensibles de ser leídos desde el navegador
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Proteger la carpeta .git si se subiera por error
+<DirectoryMatch "^\.git">
+    Order allow,deny
+    Deny from all
+</DirectoryMatch>

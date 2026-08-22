@@ -37,7 +37,7 @@
 				<div class="navbar-header">
 					<!-- Logo -->
 					<div class="navbar-brand">
-						<a class="logo" href="index.html">
+						<a class="logo" href="index.php">
 							<img src="./img/logo-alt.jpg" alt="logo">
 						</a>
 					</div>
@@ -53,7 +53,7 @@
 				<!-- Navigation -->
 				<nav id="nav">
 					<ul class="main-menu nav navbar-nav navbar-right">
-						<li><a href="index.html">Inicio</a></li>
+						<li><a href="index.php">Inicio</a></li>
 						<li><a href="#about">Nosotros</a></li>
 						<li><a href="#courses">Actividades</a></li>
 						<!-- <li><a href="https://tbchichimantlaseg.edu.mx/login.php" target="_blank">Servicios Alumnos</a></li> -->
@@ -397,7 +397,7 @@
 					<!-- footer logo -->
 					<div class="col-md-6">
 						<div class="footer-logo">
-							<a class="logo" href="index.html">
+							<a class="logo" href="index.php">
 								<img src="./img/logo.jpg" alt="logo">
 							</a>
 						</div>
@@ -407,7 +407,7 @@
 					<!-- footer nav -->
 					<div class="col-md-6">
 						<ul class="footer-nav">
-							<li><a href="index.html">Inicio</a></li>
+							<li><a href="index.php">Inicio</a></li>
 							<li><a href="#about">Nosotros</a></li>
 							<li><a href="#courses">Actividades</a></li>
 							<li><a href="blog.html">Blog</a></li>
