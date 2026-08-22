@@ -8,3 +8,4 @@
 - **2026-08-21**:
   - Se implementó la configuración mediante `.env` y seguridad con `.htaccess` en el repositorio para desarrollo local.
   - **Decisión de Producción:** Los archivos `.env` y `.htaccess` fueron eliminados del servidor de producción (hosting) temporalmente para evitar errores 500 y porque no se requieren actualmente en producción. En el repositorio de GitHub y entorno de desarrollo se seguirán utilizando y actualizando de manera normal.
+  - **Mejoras UI en Gobernanza IA:** Se agregó la galería de "Evidencias de Implementación y Herramientas Digitales". Se implementó un modal (Lightbox) en JS/CSS nativo para ampliar las imágenes de evidencia al hacer clic. Además, se añadió un enlace externo al programa Microsoft Innovative Educator Expert (MIEE).
